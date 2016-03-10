@@ -14,6 +14,7 @@
 		CE6174001C4F15F400C16A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6173FE1C4F15F400C16A68 /* LaunchScreen.storyboard */; };
 		CE61740B1C4F15F400C16A68 /* MovieDescriptionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61740A1C4F15F400C16A68 /* MovieDescriptionTests.swift */; };
 		CE6174161C4F15F400C16A68 /* MovieDescriptionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6174151C4F15F400C16A68 /* MovieDescriptionUITests.swift */; };
+		CE6174261C4F16F700C16A68 /* MovieDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6174251C4F16F700C16A68 /* MovieDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CE6174111C4F15F400C16A68 /* MovieDescriptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieDescriptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6174151C4F15F400C16A68 /* MovieDescriptionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDescriptionUITests.swift; sourceTree = "<group>"; };
 		CE6174171C4F15F400C16A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6174251C4F16F700C16A68 /* MovieDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDescription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CE6173FC1C4F15F400C16A68 /* Assets.xcassets */,
 				CE6173FE1C4F15F400C16A68 /* LaunchScreen.storyboard */,
 				CE6174011C4F15F400C16A68 /* Info.plist */,
+				CE6174251C4F16F700C16A68 /* MovieDescription.swift */,
 			);
 			path = MovieDescription;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6173F81C4F15F400C16A68 /* ViewController.swift in Sources */,
+				CE6174261C4F16F700C16A68 /* MovieDescription.swift in Sources */,
 				CE6173F61C4F15F400C16A68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
